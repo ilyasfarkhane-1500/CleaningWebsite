@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+
+*{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: #f1fbff;
+    
+}
+header{
+    background-image: url("images/c2.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.hed{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    
+        align-items: center;
+}
+
+.section-padding{
+    padding: 80px 0;
+}
+.services{
+    padding-top: 0px;
+}
+
+
+
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+.navbar-brand:focus,
+.navbar-brand:hover{
+    color: #000;
+}
+.navbar-nav .navbar-link{
+    color: #000;
+}
+.about img{
+    padding-top: 30px;
+    height: 340px;
+    padding-bottom: 30px;
+
+}
+.w-100{
+    height: 100vh;
+}
+.services{
+    padding-top: 50px;
+}
+.services p{
+    padding-bottom: 20px;
+}
+.about{
+    padding-bottom: 80px;
+}
+
+.serv2{
+    background: url('images/servic2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    
+    
+}
+
+  
+
+.serv3{
+    background: url('images/servuc3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    
+    
+}
+.last{
+    height: 5px;
+}
+.chado{
+   
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+   
+}
+footer h5{
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 996px){
+    
+    header{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 996px){
+    
+    .hed h1, .hed span{
+        font-size: 30px;
+    }
+    .bot{
+        width: 160px;
+        font-size: 15px;
+
+
+    }
+}
+@media only screen and (max-width: 390px){
+    .he{
+        text-align: center;
+    } 
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+
+    
+   
+    
+    
+   
+    header{
+        height: 450px;
+    }
+    .bot{
+        width: 160px;
+        font-size: 15px;
+
+
+    }
+    .sup-bot{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 20px;
+        padding-top: 30px;
+        
+    }
+
+  
+}
+@media only screen and (max-width: 446px){
+    .bot{
+        width: 160px;
+        font-size: 12px;
+        font-weight: bold;
+
+
+    }
+    .sup-bot{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 20px;
+        padding-top: 30px;
+        
+    }
+}
+@media only screen and (max-width: 446px){
+    .bot{
+        width: 150px;
+        font-size: 11px;
+        font-weight: bold;
+
+
+    }
+    .sup-bot{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 20px;
+        padding-top: 30px;
+        
+    }
+}
+@media only screen and (max-width: 401px){
+    .bot{
+        width: 160px;
+        font-size: 10px;
+        font-weight: bold;
+
+
+    }
+    .sup-bot{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 20px;
+        padding-top: 30px;
+        
+    }
+}
+@media only screen and (max-width: 391px){
+    
+    .sup-bot{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 20px;
+        padding-top: 5px;
+        
+    }
+}
+@media only screen and (max-width: 401px){
+    .bot{
+        width: 160px;
+        font-size: 9px;
+        font-weight: bold;
+
+
+    }
+    
+}
+@media only screen and (max-width: 401px){
+    .bot{
+        width: 160px;
+        font-size: 8px;
+        font-weight: bold;
+
+
+    }
+    
+}
+@media only screen and (max-width: 401px){
+    
+    .hed h1, .hed span{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 355px){
+    
+    .sup-bot{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 0px;
+        
+        padding-top: 5px;
+        
+    }
+}
+
+
+}
